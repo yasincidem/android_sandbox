@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">android_sandbox</string>
+    <string name="title_activity_text_main">TextMainActivity</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere neque hendrerit, egestas lacus et, mattis mauris. Nullam lobortis sollicitudin nunc nec aliquam. Ut eget lacus faucibus, dapibus purus vitae, tempor neque. Donec suscipit hendrerit pellentesque. Mauris dignissim aliquet feugiat. Morbi pretium pretium orci, ut dictum massa pharetra eu. Fusce nec magna dolor. In tellus nisl, placerat a enim quis, rhoncus auctor justo. Nam et aliquet nisi, vel suscipit purus. Ut mauris risus, ornare eu dui id, ullamcorper sollicitudin ex. Aliquam erat turpis, efficitur in vulputate at, eleifend id elit. Nulla aliquet faucibus sem id mattis. Phasellus id erat tincidunt urna interdum pretium. Fusce a ipsum aliquet, placerat enim eu, efficitur odio. Vivamus egestas convallis nunc gravida eleifend.</string>
+    <string name="lorem_ipsum_with_link">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <u>yasincidem@gmail.com</u> In tellus nisl, placerat a enim quis, rhoncus auctor justo. <u>https://open.spotify.com/track/6qLDvJJz3SALzE1LW82DaT?si=c93b32d333e644ad</u> Nam et aliquet nisi, vel suscipit purus. Ut mauris risus, ornare eu dui id, ullamcorper sollicitudin ex. Aliquam erat turpis, efficitur in vulputate at, eleifend id elit.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

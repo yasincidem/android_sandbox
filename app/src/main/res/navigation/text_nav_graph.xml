@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/textMainFragment">
+
+    <fragment
+        android:id="@+id/preComputedText"
+        android:name="com.yasincidem.android_sandbox.text.PreComputedText"
+        android:label="PreComputedText"
+        tools:layout="@layout/fragment_pre_computed_text">
+    </fragment>
+
+    <fragment
+        android:id="@+id/textMainFragment"
+        android:name="com.yasincidem.android_sandbox.text.TextMainFragment"
+        android:label="TextMainFragment" >
+        <action
+            android:id="@+id/action_textMainFragment_to_PreComputedText"
+            app:destination="@id/preComputedText" />
+        <action
+            android:id="@+id/action_textMainFragment_to_justifyText"
+            app:destination="@id/justifyText" />
+        <action
+            android:id="@+id/action_textMainFragment_to_smartLinkify"
+            app:destination="@id/smartLinkify" />
+        <action
+            android:id="@+id/action_textMainFragment_to_magnifier"
+            app:destination="@id/magnifier" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/justifyText"
+        android:name="com.yasincidem.android_sandbox.text.JustifyText"
+        android:label="JustifyText"
+        tools:layout="@layout/fragment_justify_text" />
+
+    <fragment
+        android:id="@+id/smartLinkify"
+        android:name="com.yasincidem.android_sandbox.text.SmartLinkify"
+        android:label="SmartLinkify"
+        tools:layout="@layout/fragment_smart_linkify" />
+    <fragment
+        android:id="@+id/magnifier"
+        android:name="com.yasincidem.android_sandbox.text.Magnifier"
+        android:label="fragment_magnifier"
+        tools:layout="@layout/fragment_magnifier" />
+
+</navigation>
